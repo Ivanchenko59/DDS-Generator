@@ -1,0 +1,10 @@
+AD9833.c:26:6:AD9833_Select	8	static
+AD9833.c:31:6:AD9833_Unselect	8	static
+AD9833.c:36:6:AD9833_WriteRegister	24	static
+AD9833.c:46:6:AD9833_WriteCfgReg	8	static
+AD9833.c:58:6:AD9833_SetWaveform	8	static
+AD9833.c:66:6:AD9833_SetFrequency	16	static
+AD9833.c:87:6:AD9833_SetPhase	8	static
+AD9833.c:95:6:AD9833_Init	24	static
+AD9833.c:105:6:AD9833_SleepMode	8	static
+AD9833.c:111:6:AD9833_OutputEnable	8	static
