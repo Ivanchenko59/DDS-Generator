@@ -104,7 +104,7 @@ int main(void)
   MX_GPIO_Init();
   MX_SPI1_Init();
   MX_SPI2_Init();
-  MX_TIM1_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   ST7735_Init();
   Encoder_Init();

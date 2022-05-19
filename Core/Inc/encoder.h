@@ -13,6 +13,8 @@
 
 #include "main.h"
 
+#define ENC_TIM_PORT htim3
+
 #define BUTTON_SHORT_PRESS_DELAY 	100
 #define BUTTON_LONG_PRESS_DELAY 	1000
 

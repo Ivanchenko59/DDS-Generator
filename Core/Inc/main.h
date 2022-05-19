@@ -80,29 +80,24 @@ void Change_Position(int8_t *edit_pos, uint8_t MAX_POS);
 /* Private defines -----------------------------------------------------------*/
 #define AD9833_SCK_Pin GPIO_PIN_8
 #define AD9833_SCK_GPIO_Port GPIOB
-#define ST7735_CS_Pin GPIO_PIN_15
-#define ST7735_CS_GPIO_Port GPIOC
-#define ST7735_DC_Pin GPIO_PIN_0
-#define ST7735_DC_GPIO_Port GPIOA
+#define ST7735_RES_Pin GPIO_PIN_0
+#define ST7735_RES_GPIO_Port GPIOA
 #define ST7735_SCK_Pin GPIO_PIN_1
 #define ST7735_SCK_GPIO_Port GPIOA
 #define ST7735_SDA_Pin GPIO_PIN_2
 #define ST7735_SDA_GPIO_Port GPIOA
-#define ST7735_RES_Pin GPIO_PIN_3
-#define ST7735_RES_GPIO_Port GPIOA
+#define ST7735_DC_Pin GPIO_PIN_3
+#define ST7735_DC_GPIO_Port GPIOA
 #define AD9833_DAT_Pin GPIO_PIN_4
 #define AD9833_DAT_GPIO_Port GPIOA
 #define AD9833_FSYNC_Pin GPIO_PIN_5
 #define AD9833_FSYNC_GPIO_Port GPIOA
-#define PWM_OUT_Pin GPIO_PIN_6
-#define PWM_OUT_GPIO_Port GPIOA
-#define ENC_S1_Pin GPIO_PIN_8
+#define ENC_S1_Pin GPIO_PIN_6
 #define ENC_S1_GPIO_Port GPIOA
-#define ENC_BTN_Pin GPIO_PIN_11
-#define ENC_BTN_GPIO_Port GPIOA
-#define ENC_S2_Pin GPIO_PIN_3
-#define ENC_S2_GPIO_Port GPIOB
-
+#define ENC_S2_Pin GPIO_PIN_7
+#define ENC_S2_GPIO_Port GPIOA
+#define ENC_BTN_Pin GPIO_PIN_0
+#define ENC_BTN_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 #define MAX_FREQ_VALUE 5000000

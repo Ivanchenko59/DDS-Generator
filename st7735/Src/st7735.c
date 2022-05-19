@@ -83,12 +83,14 @@ static const uint8_t
 
 static void ST7735_Select()
 {
-    HAL_GPIO_WritePin(ST7735_CS_GPIO_Port, ST7735_CS_Pin, GPIO_PIN_RESET);
+//	We don't use software CS pin, cuz we pull-down CS pin on schematic
+//    HAL_GPIO_WritePin(ST7735_CS_GPIO_Port, ST7735_CS_Pin, GPIO_PIN_RESET);
 }
 
 void ST7735_Unselect()
 {
-    HAL_GPIO_WritePin(ST7735_CS_GPIO_Port, ST7735_CS_Pin, GPIO_PIN_SET);
+//	We don't use software CS pin, cuz we pull-down CS pin on schematic
+//    HAL_GPIO_WritePin(ST7735_CS_GPIO_Port, ST7735_CS_Pin, GPIO_PIN_SET);
 }
 
 static void ST7735_Reset()

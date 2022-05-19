@@ -23,7 +23,7 @@ uint32_t btn_time = 0;
  */
 void Encoder_Init(void)
 {
-	HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_ALL);
+	HAL_TIM_Encoder_Start(&ENC_TIM_PORT, TIM_CHANNEL_ALL);
 }
 
 /*
@@ -32,7 +32,7 @@ void Encoder_Init(void)
  */
 uint16_t Encoder_Read(void)
 {
-	int16_t val = __HAL_TIM_GET_COUNTER(&htim1);
+	int16_t val = __HAL_TIM_GET_COUNTER(&ENC_TIM_PORT);
 	return val >> 1;
 }
 
