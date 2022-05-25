@@ -262,7 +262,7 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-void Edit_Frequency(int8_t position, uint32_t *p_freq)
+void Edit_Frequency(int8_t position, uint32_t* const p_freq)
 {
 	uint32_t pos_to_Hz = int_pow(10, position);
 	uint32_t edit_value = *p_freq / pos_to_Hz;
@@ -285,7 +285,7 @@ void Edit_Frequency(int8_t position, uint32_t *p_freq)
 		*p_freq = edited_freq;
 }
 
-void Change_Position(int8_t *edit_pos, uint8_t MAX_POS)
+void Change_Position(int8_t* const edit_pos, uint8_t MAX_POS)
 {
 	switch(Encoder_Get_Status()) {
 		case Incremented:
