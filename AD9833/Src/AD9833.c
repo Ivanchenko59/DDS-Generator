@@ -17,23 +17,33 @@
 
 #include "AD9833.h"
 
-	uint8_t _waveform = WAVEFORM_SINE;
-    uint8_t _sleep_mode = NO_POWERDOWN;
-    uint8_t _freq_source = 0;
-    uint8_t _phase_source = 0;
-    uint8_t _reset_state = 0;
+uint8_t _waveform = WAVEFORM_SINE;
+uint8_t _sleep_mode = NO_POWERDOWN;
+uint8_t _freq_source = 0;
+uint8_t _phase_source = 0;
+uint8_t _reset_state = 0;
 
-void AD9833_Select(void)
+/*
+ * @brief Set Chip Select pin to LOW state
+ */
+static void AD9833_Select(void)
 {
 	HAL_GPIO_WritePin(AD9833_FSYNC_GPIO_Port, AD9833_FSYNC_Pin, GPIO_PIN_RESET);
 }
 
-void AD9833_Unselect(void)
+/*
+ * @brief Set Chip Select pin to HIGH state
+ */
+static void AD9833_Unselect(void)
 {
 	HAL_GPIO_WritePin(AD9833_FSYNC_GPIO_Port, AD9833_FSYNC_Pin, GPIO_PIN_SET);
 }
 
-void AD9833_WriteRegister(uint16_t data)
+/*
+ * @brief Send data by SPI protocol
+ * @param Data variable in uint16_t format
+*/
+static void AD9833_WriteRegister(uint16_t data)
 {
 	AD9833_Select();
 	uint8_t LByte = data & 0xff;
@@ -43,7 +53,10 @@ void AD9833_WriteRegister(uint16_t data)
 	AD9833_Unselect();
 }
 
-void AD9833_WriteCfgReg(void)
+/*
+ * @brief Update Control Register Bits
+ */
+static void AD9833_WriteCfgReg(void)
 {
 	uint16_t cfg = 0;
 	cfg |= _waveform;

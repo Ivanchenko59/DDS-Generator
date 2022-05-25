@@ -63,26 +63,6 @@ typedef enum {
 	wave_sine,
 } WaveDef;
 
-/*
- * @brief Set Chip Select pin to LOW state
- */
-void AD9833_Select(void);
-
-/*
- * @brief Set Chip Select pin to HIGH state
- */
-void AD9833_Unselect(void);
-
-/*
- * @brief Send data by SPI protocol
- * @param Data variable in uint16_t format
-*/
-void AD9833_WriteRegister(uint16_t data);
-
-/*
- * @brief Update Control Register Bits
- */
-void AD9833_WriteCfgReg(void);
 
 /*
  * @brief Set signal generation frequency
