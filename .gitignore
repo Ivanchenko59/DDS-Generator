@@ -1,3 +1,12 @@
 
-/Debug
-/Release
+__Previews/
+History/
+
+
+Project\ Logs\ for\ */
+Project\ Outputs\ for\ */
+
+.settings
+DDS_Generator\ Debug.launch
+Debug/
+Release/
