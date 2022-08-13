@@ -17,11 +17,10 @@ To conrtor the microcontroller, I used an encoder with hardware filtering on a S
 As well as two variable resistors for adjusting the amplitude and offset of the output signal.
 The device is powered by an external voltage source of 12-24 V.
 
-Тут реальные фотки
+real photo here
 
 ## Demonstration video
 
-какое то фото
 
 ## Hardware
 ![PCB](https://user-images.githubusercontent.com/80352225/184502538-2017a99e-a252-4bb0-b0b4-01e5778f5521.png)
@@ -46,10 +45,10 @@ We have a signal without distortion and amplitude reduction, up to 5 MHz.
 ![signal_filter](https://user-images.githubusercontent.com/80352225/184502667-ee98db24-779c-41ca-882a-cac6ef6d8d4d.png)
 
 <img src="https://user-images.githubusercontent.com/80352225/184502752-71bc7429-2ef9-4094-ba6a-3fadb3849047.png" width="500">
+<img src="https://user-images.githubusercontent.com/80352225/184502754-1759c41a-24f4-4da2-9529-92b81a2dffe7.png" width="500">
+<img src="https://user-images.githubusercontent.com/80352225/184502761-d8381a91-a918-4bf0-9d69-e6505a29a833.png" width="500">
+<img src="https://user-images.githubusercontent.com/80352225/184502764-559bbd52-4270-47ff-9c60-12bf3216f2c8.png" width="500">
 
-![зображення](https://user-images.githubusercontent.com/80352225/184502754-1759c41a-24f4-4da2-9529-92b81a2dffe7.png)
-![зображення](https://user-images.githubusercontent.com/80352225/184502761-d8381a91-a918-4bf0-9d69-e6505a29a833.png)
-![зображення](https://user-images.githubusercontent.com/80352225/184502764-559bbd52-4270-47ff-9c60-12bf3216f2c8.png)
 
 
 
