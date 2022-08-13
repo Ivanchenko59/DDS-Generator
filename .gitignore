@@ -1,13 +1,20 @@
-
+# Altium Designer
 __Previews/
 History/
 
+Documentation/
+datasheet/
+simulation
+
 Project\ Logs\ for\ */
 Project\ Outputs\ for\ */
-.PCBDwf
-.DXPPrf
-.Outjob
 
+*.PCBDwf
+*.DXPPrf
+*.OutJob
+
+
+# CubeIDE
 .settings
 DDS_Generator\ Debug.launch
 Debug/
