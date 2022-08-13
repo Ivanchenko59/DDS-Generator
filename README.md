@@ -53,6 +53,8 @@ We have a signal without distortion and amplitude reduction, up to 5 MHz.
 ## Installation 
 
 ## Bills of material and cost
+source to file
+Total cost: around 25 - 30$
 
 ## Futures 
 
