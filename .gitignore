@@ -2,9 +2,11 @@
 __Previews/
 History/
 
-
 Project\ Logs\ for\ */
 Project\ Outputs\ for\ */
+.PCBDwf
+.DXPPrf
+.Outjob
 
 .settings
 DDS_Generator\ Debug.launch
