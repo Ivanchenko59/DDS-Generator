@@ -1,7 +1,8 @@
 # DDS-Generator
 
 ## Description
-This project is a continuation of the [DDS generator project](https://github.com/Ivanchenko59/AD9833-DDS-Generator), which I did on the STM32F401. 
+This project is a continuation of the [DDS generator project](https://github.com/Ivanchenko59/AD9833-DDS-Generator), which I did on the STM32F401.
+<br/>Please be careful, the project is still under development.
 
 The purpose of this project is to create a small ***educational 
 project*** based on the STM32 microcontroller using the HAL library, and also, ***writing a library of the AD9833 chip for experience***.
