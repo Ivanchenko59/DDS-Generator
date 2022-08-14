@@ -23,10 +23,10 @@ The device is powered by an external voltage source of 12-24 V.
 ## Demonstration video
 
 #### User interface
-[![Watch the video](https://img.youtube.com/vi/uW_SvFu_fgc/maxresdefault.jpg)](https://www.youtube.com/uW_SvFu_fgc)
+[![Watch the video](https://img.youtube.com/vi/uW_SvFu_fgc/maxresdefault.jpg)](https://youtu.be/watch?v=uW_SvFu_fgc)
 
 #### Old video from the previous repo
-[![Watch the video](https://img.youtube.com/vi/vuJpcqhaOHE/maxresdefault.jpg)](https://youtu.be/watch?v=uW_SvFu_fgc)
+[![Watch the video](https://img.youtube.com/vi/vuJpcqhaOHE/maxresdefault.jpg)](https://youtu.be/watch?v=vuJpcqhaOHE)
 
 
 
