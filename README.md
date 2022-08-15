@@ -29,6 +29,10 @@ The device is powered by an external voltage source of 12-24 V.
 #### Old video from the previous repo
 [![Watch the video](https://img.youtube.com/vi/vuJpcqhaOHE/maxresdefault.jpg)](https://youtu.be/watch?v=vuJpcqhaOHE)
 
+#### Test signal offset and gain
+At the moment I can't test this on an oscilloscope, so I'm using an arduino oscilloscope
+
+ [![Watch the video](https://img.youtube.com/vi/5M-WV1d51Fs/maxresdefault.jpg)](https://youtu.be/5M-WV1d51Fs)
 
 
 ## Hardware
