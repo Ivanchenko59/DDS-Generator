@@ -105,7 +105,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -122,7 +122,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -217,7 +217,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Ivanchenko\BOM_DDS_Gen.xlsx
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
@@ -225,58 +225,114 @@ DocumentPath=Project Outputs for Ivanchenko\DDS_Generator-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator-SlotHoles.TXT
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.DRR
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.EXTREP
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GBL
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GBO
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GBS
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GKO
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GTL
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GTO
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GTS
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.LDP
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.REP
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.RUL
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for DDS_Generator\DDS_Generator.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Ivanchenko\DDS_Generator.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for DDS_Generator\Design Rule Check - DDS_Generator.html
+DItemRevisionGUID=
+
+[GeneratedDocument30]
 DocumentPath=Project Outputs for Ivanchenko\Design Rule Check - DDS_Generator.html
 DItemRevisionGUID=
 
@@ -554,7 +610,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon MF240 Series UFRII LT
+TargetPrinter=Canon MF240 Series UFRII LT(2)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -564,7 +620,7 @@ OutputDefault1=0
 Configuration1_Name1=ForceUpdateSettings
 Configuration1_Item1=False
 Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Altium-Project\Ivanchenko\Ivanchenko\DDS_Generator.PcbDoc
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\DDS-Generator\hardware\DDS_Generator.PcbDoc
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
@@ -657,7 +713,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\Altium-Project\Ivanchenko\Ivanchenko\DDS_Generator.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\Projects\DDS-Generator\hardware\DDS_Generator.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1328,7 +1384,7 @@ ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=DDS_Generator.SchLib
 ComponentDesignItemID2=Capacitor
 ComponentSymbolReference2=Capacitor
-ComponentUpdate2=1
+ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=DDS_Generator.SchLib
@@ -1340,7 +1396,7 @@ ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=DDS_Generator.SchLib
 ComponentDesignItemID4=Connector Display
 ComponentSymbolReference4=Connector Display
-ComponentUpdate4=1
+ComponentUpdate4=0
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=DDS_Generator.SchLib
@@ -1352,19 +1408,19 @@ ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=DDS_Generator.SchLib
 ComponentDesignItemID6=Connector SWD
 ComponentSymbolReference6=Connector SWD
-ComponentUpdate6=1
+ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=DDS_Generator.SchLib
 ComponentDesignItemID7=DC Jack
 ComponentSymbolReference7=DC Jack
-ComponentUpdate7=0
+ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=DDS_Generator.SchLib
 ComponentDesignItemID8=Encoder
 ComponentSymbolReference8=Encoder
-ComponentUpdate8=1
+ComponentUpdate8=0
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=DDS_Generator.SchLib
@@ -1376,13 +1432,13 @@ ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=DDS_Generator.SchLib
 ComponentDesignItemID10=MCU
 ComponentSymbolReference10=MCU
-ComponentUpdate10=1
+ComponentUpdate10=0
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=DDS_Generator.SchLib
 ComponentDesignItemID11=Op Amp
 ComponentSymbolReference11=Op Amp
-ComponentUpdate11=0
+ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=DDS_Generator.SchLib
@@ -1412,13 +1468,13 @@ ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=DDS_Generator.SchLib
 ComponentDesignItemID16=Transistor NPN
 ComponentSymbolReference16=Transistor NPN
-ComponentUpdate16=0
+ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=DDS_Generator.SchLib
 ComponentDesignItemID17=Transistor PNP
 ComponentSymbolReference17=Transistor PNP
-ComponentUpdate17=0
+ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 FullReplace=1
 UpdateDesignatorLock=1
